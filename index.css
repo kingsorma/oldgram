@@ -1,0 +1,118 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 375px;
+    margin: 0 auto;
+    font-family: 'sourceSansregular';
+    /* border: 1px solid black; */
+    background: #F5F5F5;
+}
+
+@font-face {
+    font-family: 'sourceSansregular';
+    src: url(images/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: 'sourceSandbold';
+    src: url(images/SourceSansPro-Bold.otf)
+}
+
+header,
+section {
+    background: #FFFFFF;
+}
+
+header {
+    border-bottom: 1px solid #C6C6C6;
+}
+
+section {
+    margin-bottom: 35px;
+}
+
+.oldgram-img {
+    width: 127px;
+    margin: 10px;
+}
+
+.user-info {
+    display: flex;
+    margin: 10px;
+    margin-top: 0;
+    align-items: center;
+    padding-top: 15px;
+    background: #FFFFFF;
+}
+
+.user-info-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.user-info-name {
+    font-size: 13px;
+    margin: 0;
+    font-family: 'sourceSandbold';
+}
+
+
+
+.user-info-location {
+    font-size: 12px;
+    margin: 0;
+}
+
+.user-image {
+    width: 375px;
+    height: 375px;
+    margin-bottom: 0;
+}
+
+.post-description {
+    margin-left: 10px;
+}
+
+.icons {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.heart-icon {
+    widows: 30.3px;
+    height: 30.13px;
+}
+
+.comment-icon {
+    width: 30.65px;
+    height: 30.65px;
+    margin: 0 10px;
+}
+
+.dm-icon {
+    width: 27.38px;
+    height: 28.65px;
+}
+
+.heart-icon:hover,
+.comment-icon:hover,
+.dm-icon:hover {
+    opacity: 0.8;
+}
+
+.like-count {
+    margin-top: 12px;
+    font-size: 13px;
+    font-family: 'sourceSandbold';
+}
+
+.username {
+    font-family: 'sourceSandbold';
+}
+
+.comment {
+    font-size: 13px;
+    padding-bottom: 15px;
+}
